@@ -104,16 +104,16 @@
                 <name>Yekta Demirci </name>
               </p>
               <p>
-                Hi there! I am a Software Engineer who is always passiniate to learn more.
+                Hi there! I am a Software Engineer enthusiast who is always passiniate to learn more.
               </p>
               <p style="color:red;">
                 <b>Currently, I am looking for a job as a Software Engineer.</b>
               </p>
               <p>   
                 I am extremely interested in taking a role in <b style="color:red;">Augmented Reality/Virtual Reality</b> or <b style="color:red;">Computer Vision</b> related projects.
-                I am currently located at Waterloo, Ontario and eligible to move around Canada.
+                I am currently located at Waterloo, Ontario and eligible to move around Canada (Toronto, Montreal or Vancouver).
                 I have <a href="#projects">experience</a> with both hardware and software. If you feel I might be a good
-                match to your team, please do not hesitate to connect me.
+                match to your team, please do not hesitate to contact me.
               </p>
 
               <p>
@@ -147,8 +147,8 @@
                 My MASc research project lied in Software Engineering and Radio Access Networks (RAN). I was supervised by 
                 <a href="https://scholar.google.ca/citations?user=oNvTtTAAAAAJ&hl=en">Prof. Mahesh Tripunitara </a> and 
                 <a href="https://scholar.google.ca/citations?user=DT5WUOsAAAAJ&hl=en">Prof. Catherine Rosenberg </a> where I implemented 
-                a two-level Weighted Round Robin fashioned slice scheduler for RAN sharing on top of a third-party, open-source project
-                 with a large codebase (OpenAirInterface) in C/C++. More information about the project is available <a href="#masters">here</a>.
+                a two-level Weighted Round Robin fashioned scheduler for RAN sharing on top of a third-party, open-source project
+                with a large codebase (OpenAirInterface) in C/C++. More information about the project is available <a href="#masters">here</a>.
               </p>
               <p>
                 During my last summer internship, I had research experience on machine learning at <a href="http://depts.washington.edu/gemsec/">GEMSEC lab </a>
@@ -167,13 +167,21 @@
         <table>
 
           <tr id="masters" >
-            <td width="25%"><img src="img/masters.png" alt="masters" width="160" height="100"></td>
+            <td width="25%"><img src="img/masters.png" alt="masters" width="180" height="100"></td>
             <td width="75%" >
               <p>
-                <papertitle>Weighted Round Robin fashioned slice scheduler in OAI and FlexRAN <i>MASc project</i></papertitle>
+                <papertitle> Two-level Weighted Round Robin (WRR) slice scheduler on OAI and FlexRAN <i>MASc project</i></papertitle>
               </p>
               <p>
-                To be updated...
+                For my MASc project, I implemented a two-level WRR scheduler for Physical Resource Block (PRB) allocation on top of a <b>third-party</b>, <b>open-source</b> Radio Access Network (RAN) project with a <b>large codebase</b>; OpenAirInterface 
+                and flexRAN in <b>C/C++</b>. Besides the WRR implementation on top of the eNB source codes, I also enhanced the existing API to change the active slice scheduler to WRR on the fly via FlexRAN.
+                Additionally, I provided detailed guides to set-up a private LTE network both in the nFAPI emulation of OAI and with COTS hardware (bladeRF and LG Velvet phone).
+                Finally, in order to measure the performance of the implemented scheduler compared to the State of the Art solution, I implemented a traffic generator and <b>UDP client/server</b> pairs in <b>Python.</b>
+              </p>
+
+              <p>
+                My initial project was about enforcing Service Level Agreements in the context of RAN sharing, however, due to the scalability concerns; 
+                such as service granularity in milliseconds or massive deployments of the base stations, we decided to change the topic to the two-level PRB scheduler. 
               </p>
             </td>
           </tr>
@@ -185,8 +193,9 @@
                 <papertitle>Food Hunter Web Application <i>3 months-5 people</i></papertitle>
               </p>
               <p>
-              As a group of five people, we used agile methods to develop a web application as a course project where we used <b>MongoDB</b>, Google maps and web crawling APIs as well as <b>HTML, CSS, JS and Python</b> (<b>Selenium</b> for testing). We implemented unit, integration, system and acceptance tests.
-              In order to provide a user friendly interface we designed a single page with three sliding bars. The website takes location and ingredients as inputs and it offers some meals. </br>
+              As a group of five people, we used agile methods (e.g. <b>Scrum meetings, Kanban board</b>) to develop a web application as a course project where we used <b>MongoDB</b>, Google maps and web crawling APIs as well as <b>HTML, CSS, JS and Python</b> (<b>Selenium</b> for testing). 
+              We implemented <b>unit, integration, system and acceptance tests.</b>
+              In order to provide a user friendly interface we designed a single page with three sliding bars. The website takes location and ingredients as inputs and it suggests some meals. </br>
               <a href="https://drive.google.com/file/d/1LkJFiDsxUO1RzRtabfqWMFxHFygmQ4oj/view?usp=sharing">Presentation</a> <span>|</span>
               <a href="https://github.com/YektaDemirci/foodHunter">Code</a>
               </p>
@@ -280,12 +289,14 @@
             <td width="25%"><img src="img/robot.png" alt="map extraction robot" width="160" height="160"></td>
             <td width="75%" >
               <p>
-                <papertitle> Design and Implementation of an Autonomous Map Extraction Robot<i> 6 months-5 people</i></papertitle>
+                <papertitle> Design and Implementation of an autonomous 2D SLAM robot<i> 6 months-5 people</i></papertitle>
               </p>
               <p>
-              For the final year capstone project, with a group of five people we designed and implemented an autonomous
-              map extraction robot. The robot is randomly deployed in an enclosed area where it extracts the map and identifies the objects with their centre locations.
-              I focused on the <b>noise filtering, (novel) path finding</b> and <b>object clasification algorithms</b>. </br>
+              For the final year capstone project, with a group of five people we designed and implemented a <b>2D Simultaneous Localization and Mapping (SLAM) robot.</b>
+              The robot localizes itself in an unknown area and does 2D mapping as well as identification of the objects with their center locations.
+              Besides, the generic group responsibilities such as documentation or helping to solve any unexpected urgent problems, 
+              I was mainly in charge of <b>noise filtering, (novel) path planning, and object classification algorithms.</b>
+              </br>
               <a href="https://github.com/YektaDemirci/undergrad_assignments/blob/master/BachelorGraduationProject_EE493-494/conceptual_design_report.pdf">Conceptual design report</a> <span>|</span>
               <a href="https://github.com/YektaDemirci/undergrad_assignments/blob/master/BachelorGraduationProject_EE493-494/finalReport.pdf">Final report</a> <span>|</span>
               <a href="https://www.youtube.com/watch?v=V6gUSqbk-As">Video</i> </a> <span>|</span>
